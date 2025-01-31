@@ -4,5 +4,6 @@ return {
     ensure_installed = {
       "rust",
     },
+    indent = { enable = false },
   },
 }
