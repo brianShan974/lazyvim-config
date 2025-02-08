@@ -9,3 +9,6 @@ map("n", "<C-h>", "<cmd>TmuxNavigateLeft<CR>", { desc = "Go to Left Window", rem
 map("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>", { desc = "Go to Lower Window", remap = true })
 map("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>", { desc = "Go to Upper Window", remap = true })
 map("n", "<C-l>", "<cmd>TmuxNavigateRight<CR>", { desc = "Go to Right Window", remap = true })
+
+-- yazi.nvim
+map("n", "<leader>y", "<cmd>Yazi toggle<CR>", { desc = "Open Yazi File Explorer", remap = true })
