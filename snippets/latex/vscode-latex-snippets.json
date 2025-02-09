@@ -23,6 +23,7 @@
             "\\usepackage{graphicx}",
             "\\usepackage{lipsum}",
             "\\usepackage{mdframed}",
+            "\\usepackage{minted}",
             "\\usepackage{parskip}",
             "\\usepackage{pgfplots}",
             "\\usepackage{psfrag}",

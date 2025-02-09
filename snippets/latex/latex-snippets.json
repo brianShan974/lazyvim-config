@@ -136,6 +136,17 @@
         ],
         "description": "Add an algorithm"
     },
+    "Algorithmx": {
+        "prefix": "algox",
+        "body": [
+            "\\begin{algorithmic}[1]",
+            "\t\\Procedure{${1:Procedure Name}}{$A$}",
+            "\t\\EndProcedure",
+            "\\end{algorithmic}",
+            "$0"
+        ],
+        "description": "Add a simple algorithm"
+    },
     "Algorithm:State": {
         "prefix": "state",
         "body": [
