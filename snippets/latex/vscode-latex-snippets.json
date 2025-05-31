@@ -24,7 +24,7 @@
             "\\usepackage{lipsum}",
             "\\usepackage{mdframed}",
             "\\usepackage{minted}",
-            "\\usepackage{parskip}",
+            "\\usepackage{indentfirst}",
             "\\usepackage{pgfplots}",
             "\\usepackage{psfrag}",
             "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
