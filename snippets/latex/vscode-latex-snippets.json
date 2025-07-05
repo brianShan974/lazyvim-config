@@ -79,6 +79,27 @@
         ],
         "description": "Use the default template which includes a variety of packages and declared-commands. The template will also automatically generate the title and author, as well as date, and will formate the document."
     },
+    "SlideSelfIntro": {
+        "prefix": [
+            "slideselfintro",
+            "\\slideselfintro"
+        ],
+        "body": [
+            "\\section{About Myself}",
+            "\\begin{frame}{About Myself}",
+            "\\begin{itemize}",
+            "    \\item Ziheng Shan",
+            "    \\item used to study physics",
+            "    \\item now studies computer science",
+            "    \\item interested in operating systems, programming languages and computer graphics, basically anything fundamental (just like physics and math)",
+            "    \\item likes to learn new stuff",
+            "    \\item hobbies include table tannis (penholder, short pimples), Rubik's cube (in any shape) and so on",
+            "    \\item \\sout{watches animes}",
+            "\\end{itemize}",
+            "\\end{frame}"
+        ],
+        "description": "The self introduction page for latex slides"
+    },
     "SlidesTemplate": {
         "prefix": [
             "slides",
@@ -147,7 +168,7 @@
             "",
             "\\end{document}"
         ],
-        "description": "Use the default template which includes a variety of packages and declared-commands. The template will also automatically generate the title and author, as well as date, and will formate the document."
+        "description": "Use the default template for latex slides which includes a variety of packages and declared-commands. The template will also automatically generate the title and author, as well as date, and will formate the document."
     },
     "Large Summation": {
         "prefix": [
