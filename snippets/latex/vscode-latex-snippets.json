@@ -19,6 +19,7 @@
             "\\usepackage{booktabs}",
             "\\usepackage{color}",
             "\\usepackage{empheq}",
+            "\\usepackage{fmtcount}",
             "\\usepackage{geometry}",
             "\\usepackage{graphicx}",
             "\\usepackage{lipsum}",
@@ -122,6 +123,7 @@
             "\\usepackage{caption}",
             "\\usepackage{color}",
             "\\usepackage{empheq}",
+            "\\usepackage{fmtcount}",
             "\\usepackage{geometry}",
             "\\usepackage{graphicx}",
             "\\usepackage{lipsum}",
@@ -136,6 +138,17 @@
             "% Other Settings",
             "\\pgfplotsset{compat=1.18}",
             "\\graphicspath{{./images/}}",
+            "\\hypersetup{",
+            "    colorlinks=true,",
+            "    linkcolor=red,",
+            "    urlcolor=cyan,",
+            "    citecolor=green",
+            "}",
+            "\\newenvironment{bulletpts}{%",
+            "    \\begin{itemize}[<+->]",
+            "}{%",
+            "    \\end{itemize}",
+            "}",
             "",
             "%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%",
             "\\definecolor{ocre}{RGB}{243,102,25}",
@@ -169,6 +182,18 @@
             "\\end{document}"
         ],
         "description": "Use the default template for latex slides which includes a variety of packages and declared-commands. The template will also automatically generate the title and author, as well as date, and will formate the document."
+    },
+    "frame": {
+        "prefix": [
+            "frame",
+            "\\frame"
+        ],
+        "body": [
+            "\\section{${1:title}}",
+            "\\begin{frame}{${1:title}}",
+            "$0",
+            "\\end{frame}"
+        ]
     },
     "Large Summation": {
         "prefix": [
