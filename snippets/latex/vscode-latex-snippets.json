@@ -312,6 +312,17 @@
             "\\end{itemize}$0"
         ]
     },
+    "Bulletpts": {
+        "prefix": [
+            "\\bulletpts",
+            "bulletpts"
+        ],
+        "body": [
+            "\\begin{bulletpts}",
+            "\t\\item $1",
+            "\\end{bulletpts}$0"
+        ]
+    },
     "Up": {
         "prefix": [
             "to",
