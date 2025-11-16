@@ -3,3 +3,6 @@ require("config.lazy")
 
 -- colorscheme
 vim.cmd.colorscheme("onedark")
+
+-- enable indent guides by default
+vim.b.miniindentscope_disable = false
